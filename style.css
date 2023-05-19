@@ -33,13 +33,18 @@
 
 .orange-text {
     color: orange;
+    text-decoration: none;
+}
+
+.white-text {
+    color: #ffffff;
 }
 
 .btn {
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    background-color: orange;
+    background: linear-gradient(45deg, orangered, orange);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -55,7 +60,6 @@
     text-align: center;
     margin: 20px 0;
 }
-
 
 .service-section-boxes {
     display: flex;
@@ -121,4 +125,17 @@
 
 .price {
     margin: 5px 0;
+}
+
+/* footer style */
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-text {
+    font-size: 25px;
 }
