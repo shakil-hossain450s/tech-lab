@@ -50,11 +50,12 @@
     margin: 30px auto;
 }
 
-.service-title {
+.title-text {
     font-size: 35px;
     text-align: center;
     margin: 20px 0;
 }
+
 
 .service-section-boxes {
     display: flex;
@@ -90,4 +91,34 @@
 .service-text {
     width: 70%;
     padding: 10px;
+}
+
+/* product section style */
+#product-section {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.laptop-section,
+.mobile-section {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.product-cards {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(235, 233, 233);
+}
+
+.price {
+    margin: 5px 0;
 }
